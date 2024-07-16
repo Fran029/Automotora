@@ -2,15 +2,25 @@ package praxis.cl;
 
 public class Tienda {
 
+    private String nombreT;
     private Vendedor vendedor;
     private Vehiculo vehiculo;
     private int stock;
 
-    public Tienda( Vendedor vendedor,Vehiculo vehiculo, int stock){
-        this.vendedor= vendedor;
-        this.vehiculo= vehiculo;
-        this.stock= stock;
+    public Tienda(Vendedor vendedor, Vehiculo vehiculo, int stock, String nombreT) {
+        this.vendedor = vendedor;
+        this.vehiculo = vehiculo;
+        this.stock = stock;
+        this.nombreT = nombreT;
 
+    }
+
+    public String getNombreT() {
+        return nombreT;
+    }
+
+    public void setNombreT(String nombreT) {
+        this.nombreT = nombreT;
     }
 
     public int getStock() {
@@ -36,4 +46,22 @@ public class Tienda {
     public void setVendedor(Vendedor vendedor) {
         this.vendedor = vendedor;
     }
-}
+
+
+    public String existeStock(){
+        return this.stock > 0 ? "Hay stock disponible" : "No hay stock disponible";
+    }
+
+        @Override
+    public String toString() {
+        return "Tienda{" +
+                "nombreT='" + nombreT + '\'' +
+                ", vendedor=" + vendedor +
+                ", vehiculo=" + vehiculo +
+                ", stock=" + stock +
+                '}';
+
+        }
+
+    }
+

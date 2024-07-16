@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e75490c-255a-4f38-a097-b70775e36d7b" name="Changes" comment="">
+    <list default="true" id="3e75490c-255a-4f38-a097-b70775e36d7b" name="Changes" comment="segundo commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibroVenta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/praxis/cl/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/praxis/cl/Bus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/praxis/cl/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/praxis/cl/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/praxis/cl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/praxis/cl/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/praxis/cl/MiniBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/praxis/cl/MiniBus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/praxis/cl/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/praxis/cl/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/praxis/cl/Taxi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/praxis/cl/Taxi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/praxis/cl/Tienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/praxis/cl/Tienda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/praxis/cl/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/praxis/cl/Vehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/praxis/cl/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/praxis/cl/Vendedor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,21 +39,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Francisca/Desktop/java 053/Automotora2/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Francisca/Desktop/java 053/Automotora2/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -71,20 +71,46 @@
       <option name="presentableId" value="Default" />
       <updated>1720579808208</updated>
       <workItem from="1720579809283" duration="5360000" />
-      <workItem from="1720984404175" duration="2525000" />
+      <workItem from="1720984404175" duration="2654000" />
+      <workItem from="1721067456718" duration="7429000" />
     </task>
+    <task id="LOCAL-00001" summary="segundo commit">
+      <option name="closed" value="true" />
+      <created>1720996186616</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720996186616</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primer commit" />
+    <MESSAGE value="segundo commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="segundo commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/praxis/cl/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
+          <line>38</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

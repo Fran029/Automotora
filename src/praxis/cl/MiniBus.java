@@ -15,4 +15,17 @@ public class MiniBus  extends Bus{
     public void setTipoDeViaje(String tipoDeViaje) {
         this.tipoDeViaje = tipoDeViaje;
     }
+
+
+    public void imprimeBus(){
+        System.out.println(this.tipoDeViaje);
+
+    }
+
+    @Override
+    public String toString() {
+        return "MiniBus{" +
+                "tipoDeViaje='" + tipoDeViaje + '\'' +
+                '}';
+    }
 }
