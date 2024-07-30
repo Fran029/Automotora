@@ -1,5 +1,4 @@
 package praxis.cl;
-
 public class Tienda {
 
     private String nombreT;
@@ -7,12 +6,17 @@ public class Tienda {
     private Vehiculo vehiculo;
     private int stock;
 
+     //constructor para return de stock
+    public Tienda(String nombteT,int stock){
+        this.nombreT=nombteT;
+        this.stock=stock;
+    }
+
     public Tienda(Vendedor vendedor, Vehiculo vehiculo, int stock, String nombreT) {
         this.vendedor = vendedor;
         this.vehiculo = vehiculo;
         this.stock = stock;
         this.nombreT = nombreT;
-
     }
 
     public String getNombreT() {
@@ -47,12 +51,11 @@ public class Tienda {
         this.vendedor = vendedor;
     }
 
-
-    public String existeStock(){
-        return this.stock > 0 ? "Hay stock disponible" : "No hay stock disponible";
+    public String existeStock() {
+        return stock > 0 ? "Hay stock disponible: " + stock : "No hay stock disponible";
     }
 
-        @Override
+    @Override
     public String toString() {
         return "Tienda{" +
                 "nombreT='" + nombreT + '\'' +
@@ -60,8 +63,5 @@ public class Tienda {
                 ", vehiculo=" + vehiculo +
                 ", stock=" + stock +
                 '}';
-
-        }
-
     }
-
+}
